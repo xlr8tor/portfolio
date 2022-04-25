@@ -8,7 +8,7 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <img src="/about.jpeg" alt="" className="about__img" loading="lazy" />
+        <img src="/about.jpg" alt="" className="about__img" loading="lazy" />
         <div className="about__data">
           <p className="about__description">
             Fullstack web developer specializing in frontend development using
