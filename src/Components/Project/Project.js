@@ -1,4 +1,4 @@
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-scroll";
 import { Wrapper } from "./Project.styles";
 import { UilMessage } from "@iconscout/react-unicons";
 const Project = () => {
@@ -11,7 +11,7 @@ const Project = () => {
             <p className="project__description">
               Need a new project done to your taste? I'm your guy.
             </p>
-            <Link to="#contact" className="button button--flex button--white">
+            <Link to="contact" className="button button--flex button--white">
               Contact Me
               <UilMessage className="project__icon button__icon" />
             </Link>

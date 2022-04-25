@@ -1,4 +1,4 @@
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-scroll";
 import { Wrapper } from "./Footer.styles";
 import { UilFacebookF } from "@iconscout/react-unicons";
 import { UilTwitterAlt } from "@iconscout/react-unicons";
@@ -14,18 +14,18 @@ const Footer = () => {
           </div>
           <ul className="footer__links">
             <li>
-              <Link to="#services" className="footer__link">
+              <Link to="services" className="footer__link">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="#portfolio" className="footer__link">
+              <Link to="portfolio" className="footer__link">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link to="#contact" className="footer__link">
-                Contactme
+              <Link to="contact" className="footer__link">
+                Contact
               </Link>
             </li>
           </ul>

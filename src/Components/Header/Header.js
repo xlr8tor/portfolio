@@ -135,7 +135,7 @@ const Header = (props) => {
                 onClick={ToggleMenu}
               >
                 <UilMessage size="16" className="nav__icon" />
-                Contactme
+                Contact
               </Link>
             </li>
           </ul>

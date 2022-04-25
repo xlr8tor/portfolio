@@ -27,6 +27,7 @@ export const Wrapper = styled.footer`
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
+    cursor: pointer;
   }
 
   .footer__link:hover {

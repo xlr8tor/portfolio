@@ -1,4 +1,4 @@
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-scroll";
 import { Wrapper, Content } from "./Home.styles";
 import {
   UilLinkedin,
@@ -66,14 +66,14 @@ const Home = () => {
                 and interactive web apps. I am seeking React, Javascript, and
                 other web development opportunities.
               </p>
-              <Link to="#contact" className="button button--flex">
+              <Link to="contact" className="button button--flex">
                 Contact Me
                 <UilMessage className="button__icon" />
               </Link>
             </div>
           </div>
           <div className="home__scroll">
-            <Link to="#about" className="home__scroll-button button--flex flex">
+            <Link to="about" className="home__scroll-button button--flex flex">
               <UilMouseAlt className="home__scroll-mouse" />
               <span className="home__scroll-name">Scroll down</span>
               <UilArrowDown className="home__scroll-arrow" />

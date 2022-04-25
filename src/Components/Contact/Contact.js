@@ -1,4 +1,3 @@
-import { forwardRef } from "react";
 import { Wrapper } from "./Contact.styles";
 import { UilEnvelope } from "@iconscout/react-unicons";
 import { UilMapMarker } from "@iconscout/react-unicons";
@@ -6,7 +5,7 @@ import { UilPhone } from "@iconscout/react-unicons";
 import { Formik, Form, Field } from "formik";
 import { UilMessage } from "@iconscout/react-unicons";
 
-const Contact = forwardRef((props, ref) => {
+const Contact = () => {
   const validateEmail = (value) => {
     let error;
     if (!value) {
@@ -26,7 +25,7 @@ const Contact = forwardRef((props, ref) => {
   };
 
   return (
-    <Wrapper className="contact section" id="contact" ref={ref}>
+    <Wrapper className="contact section" id="contact">
       <h2 className="section__title">Contact Me</h2>
       <span className="section__subtitle">Get in touch</span>
 
@@ -132,6 +131,6 @@ const Contact = forwardRef((props, ref) => {
       </div>
     </Wrapper>
   );
-});
+};
 
 export default Contact;
