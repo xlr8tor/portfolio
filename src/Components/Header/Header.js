@@ -65,6 +65,7 @@ const Header = (props) => {
                 to="home"
                 activeClass="active__link"
                 spy={true}
+                smooth={true}
                 className="nav__link"
                 onSetActive={handleSetActive}
                 onClick={ToggleMenu}
@@ -78,6 +79,7 @@ const Header = (props) => {
                 to="about"
                 activeClass="active__link"
                 spy={true}
+                smooth={true}
                 className="nav__link"
                 onSetActive={handleSetActive}
                 onClick={ToggleMenu}
@@ -91,6 +93,7 @@ const Header = (props) => {
                 to="skills"
                 activeClass="active__link"
                 spy={true}
+                smooth={true}
                 className="nav__link"
                 onSetActive={handleSetActive}
                 onClick={ToggleMenu}
@@ -104,6 +107,7 @@ const Header = (props) => {
                 to="services"
                 activeClass="active__link"
                 spy={true}
+                smooth={true}
                 className="nav__link"
                 onSetActive={handleSetActive}
                 onClick={ToggleMenu}
@@ -117,6 +121,7 @@ const Header = (props) => {
                 to="portfolio"
                 activeClass="active__link"
                 spy={true}
+                smooth={true}
                 className="nav__link"
                 onSetActive={handleSetActive}
                 onClick={ToggleMenu}
@@ -130,6 +135,7 @@ const Header = (props) => {
                 to="contact"
                 activeClass="active__link"
                 spy={true}
+                smooth={true}
                 className="nav__link"
                 onSetActive={handleSetActive}
                 onClick={ToggleMenu}
