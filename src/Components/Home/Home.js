@@ -16,13 +16,22 @@ const Home = () => {
         <Content className="home__container container grid">
           <div className="home__content grid">
             <div className="home__social">
-              <a href="https://www.linkedin.com" className="home__social-icon">
+              <a
+                href="https://www.linkedin.com/in/jeremiah-charles-dev/"
+                className="home__social-icon"
+              >
                 <UilLinkedin />
               </a>
-              <a href="https://www.twitter.com" className="home__social-icon">
+              <a
+                href="https://www.twitter.com/neoncharles"
+                className="home__social-icon"
+              >
                 <UilTwitter />
               </a>
-              <a href="https://www.github.com" className="home__social-icon">
+              <a
+                href="https://www.github.com/xlr8tor"
+                className="home__social-icon"
+              >
                 <UilGithub />
               </a>
             </div>
