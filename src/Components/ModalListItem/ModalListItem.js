@@ -9,13 +9,14 @@ const ListItem = styled.li`
   svg.services__modal-icon {
     color: ${(props) => props.theme.firstColor};
     margin-right: var(--mb-0-25);
+    flex-shrink: 0;
   }
 `;
 const ModalListItem = ({ text }) => {
   return (
     <ListItem className="services__modal-service">
       <UilCheckCircle className="services__modal-icon" />
-      <p>{text}</p>
+      <p className="services_data">{text}</p>
     </ListItem>
   );
 };

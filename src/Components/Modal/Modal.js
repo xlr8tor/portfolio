@@ -12,8 +12,8 @@ const offerings = {
   ],
   Backend: [
     "Write clean code to develop functional web applications",
-    "Collaborate with Front-end developers to integrate user-facing elements with server side logic",
-    "Optimization of the application for maximum speed and scalability",
+    "Collaborate with frontend developers to integrate user-facing elements with server side logic",
+    "Optimization of applications for maximum speed and scalability",
     "Troubleshoot and debug applications",
   ],
 };
