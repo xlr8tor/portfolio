@@ -11,10 +11,10 @@ const offerings = {
     "Bug fixes and usability testing",
   ],
   Backend: [
-    "Develop web interface back blah",
-    "Develop web interface blah blah",
-    "Develop web interface blah blah",
-    "Develop web interface blah blah",
+    "Write clean code to develop functional web applications",
+    "Collaborate with Front-end developers to integrate user-facing elements with server side logic",
+    "Optimization of the application for maximum speed and scalability",
+    "Troubleshoot and debug applications",
   ],
 };
 const Modal = ({ title, visible, setIsVisible }) => {
